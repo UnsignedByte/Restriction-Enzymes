@@ -12,14 +12,12 @@ function addrow(){
   input.setAttribute('class', 'gene');
   input.setAttribute('onkeyup', 'update()');
   input.setAttribute('type', 'text');
-  console.log(input);
   document.getElementById('inputs').appendChild(input);
   update();
 }
 
 function removerow(){
   var ins = document.getElementById('inputs');
-  console.log(ins.lastChild);
   ins.removeChild(ins.lastChild);
   update();
 }
