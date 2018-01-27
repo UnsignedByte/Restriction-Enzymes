@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	height: 100%;
+  background-color: #8E8E8D;
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+
+input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+}
+
+.gene {
+  width:1000px;
+}
+
+button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100px;
+}
+
+table,input,button {
+  color: #F6F5F2;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #302F2E;
+  border-radius: 5px;
+  background-color: #5D5D5B;
+}
+
+table td + td {
+  border-left: 3px solid #302F2E;
+}
+
+table td {
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+.content {
+  font-family: "Courier New", Courier, monospace;
+  color: #F6F5F2;
+}
