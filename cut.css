@@ -23,7 +23,6 @@ input {
 button {
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 100px;
 }
 
 table,input,button {
@@ -34,6 +33,9 @@ table,input,button {
   border-color: #302F2E;
   border-radius: 5px;
   background-color: #5D5D5B;
+  font-family: "Courier New", Courier, monospace;
+  font-size:14px;
+  color: #F6F5F2;
 }
 
 table td + td {
@@ -45,9 +47,4 @@ table td {
   padding-right:5px;
   padding-top:2px;
   padding-bottom:2px;
-}
-
-.content {
-  font-family: "Courier New", Courier, monospace;
-  color: #F6F5F2;
 }
